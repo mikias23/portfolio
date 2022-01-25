@@ -40,6 +40,20 @@
 
 
      }
+
+     .about-info {
+         grid-template-areas: 
+         'bioimage'
+         'bio'
+         'job1'
+         'job2'
+         'job3';
+
+         grid-template-columns: 1fr;
+     }
+     .lg-heading {
+         text-align: center;
+     }
 }
 @include mediaSm{
     
